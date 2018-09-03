@@ -22,6 +22,9 @@ public class AppTest {
         assertEquals(i, iVariable);
     }
 
-  
+    @Test
+    public void testFail(){
+        fail();
+    }
 
 }
