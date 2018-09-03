@@ -5,6 +5,7 @@ import org.junit.Test;
 
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 
 public class AppTest {
@@ -20,5 +21,10 @@ public class AppTest {
 
         assertEquals(i, iVariable);
     }
+
+    @Test
+    /*public void testFail(){
+        fail();
+    }*/
 
 }
